@@ -1,0 +1,20 @@
+# Site settings
+author: Valeria  Copleman
+title: 
+header-img: img/home-bg.png
+email: valeriacopleman@gmail.com
+copyright_name: Valeria  Copleman
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  valeriacopleman
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
